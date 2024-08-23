@@ -5,7 +5,7 @@
 #include "../CJSON/cJSON.h"
 
 /**
- * @brief       Match the utf-8 code in PinYin table precisely, else return 1
+ * @brief       Match the utf-8 code in PinYin table precisely 
  * @param       str : string to match
  * @param       res_str : result string (must pre-malloc size at least 3 * num bytes + 1(MAX_PINYIN_BUFFER_SZ is recommended)
  * @param       num : number of zh Character to read (set to ZH_VAGUE_MAX_LENGTH if want all)
@@ -14,7 +14,8 @@
  */
 uint8_t zh_match_code_prec(const char* str, char* res_str, uint8_t num, uint8_t* br){
     if (str == NULL || res_str == NULL) return 1;
-    uint8_t res = 1; int i;
+    if (str[0] < 'a' || str[0] > 'z') return 1;
+    uint8_t res = 1; 
     uint8_t idx = str[0] - 'a';
     if (code_index[idx].code_table == NULL){
         return 1;
@@ -22,7 +23,7 @@ uint8_t zh_match_code_prec(const char* str, char* res_str, uint8_t num, uint8_t*
     FILE* fp = fopen(ZH_CODE_TABLE_FILE_NAME, "rb");
     if (!fp) return 1;
     const __code_index_t* codex = (&code_index[idx]);
-    for (i = 0; i < codex->table_length; i++) {
+    for (int i = 0; i < codex->table_length; i++) {
         if (strcmp(str, codex->code_table[i]) != 0) continue;
         uint16_t read_length = 0;
         if (br!= NULL) {
@@ -54,6 +55,7 @@ uint8_t zh_match_code_prec(const char* str, char* res_str, uint8_t num, uint8_t*
  */
 uint8_t zh_match_code_vague(const char* str, char* res_str, uint8_t num, uint8_t* br) {
     if (str == NULL || res_str == NULL) return 1;
+    if (str[0] < 'a' || str[0] > 'z') return 1;
     uint8_t idx = str[0] - 'a';
     if (code_index[idx].code_table == NULL) {
         return 1;
@@ -76,7 +78,7 @@ uint8_t zh_match_code_vague(const char* str, char* res_str, uint8_t num, uint8_t
     }
     res_str[3 * chars_left] = '\0';
 
-    for (int i = 0; i < codex->table_length; i++) {  
+    for (int i = 0; i < codex->table_length; i++) {
         /** check for any precise match and record, put it in the end of res_str */
         if (strcmp(str, codex->code_table[i]) == 0) {
             match_idx = i;

@@ -56,8 +56,15 @@ void zh_code_table_test()
 }
 
 int main() {
+    
     zh_code_table_test();
-    cout << cJSON_Version() << endl;
+    /*
+    string s;
+    char str_res[MAX_PINYIN_BUFFER_SZ];
+    uint8_t br;
+    */
+    
+    // cout << cJSON_Version() << endl;
     return 0;
 }
 

@@ -1,0 +1,4 @@
+﻿  GB2312search.cpp
+E:\workpack\CPP\Test2\GB2312search\GB2312search\codeconv\codeconv.h(6,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+E:\workpack\CPP\Test2\GB2312search\GB2312search\GB2312search.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+  GB2312search.vcxproj -> E:\workpack\CPP\Test2\GB2312search\x64\Debug\GB2312search.exe

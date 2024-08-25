@@ -30,6 +30,9 @@
     <ClCompile Include="zh_pinyin_decoder\zh_pinyin_decoder.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="zh_pinyin_decoder\zh_hash_boost.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CJSON\cJSON.h">
@@ -44,12 +47,15 @@
     <ClInclude Include="zh_pinyin_decoder\zh_pinyin_decoder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="zh_pinyin_decoder\zh_hash_boost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="zh_pinyin.bin">
+    <None Include="zh_pinyin_decoder\bin\zh_pinyin.bin">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="zh_word_dic.json">
+    <None Include="zh_pinyin_decoder\bin\zh_word_dic.json">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>

@@ -1,4 +1,10 @@
-﻿  GB2312search.cpp
+﻿  zh_pinyin_decoder.c
+  USE_ZH_HASH_BOOST is recommended for better performance when matching word is required
+  GB2312search.cpp
 E:\workpack\CPP\Test2\GB2312search\GB2312search\codeconv\codeconv.h(6,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
 E:\workpack\CPP\Test2\GB2312search\GB2312search\GB2312search.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+  USE_ZH_HASH_BOOST is recommended for better performance when matching word is required
+E:\workpack\CPP\Test2\GB2312search\GB2312search\GB2312search.cpp(48,26): warning C4244: 'initializing': conversion from 'clock_t' to 'float', possible loss of data
+E:\workpack\CPP\Test2\GB2312search\GB2312search\GB2312search.cpp(50,25): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
+E:\workpack\CPP\Test2\GB2312search\GB2312search\GB2312search.cpp(57,29): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
   GB2312search.vcxproj -> E:\workpack\CPP\Test2\GB2312search\x64\Debug\GB2312search.exe

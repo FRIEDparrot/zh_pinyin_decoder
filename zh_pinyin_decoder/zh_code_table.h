@@ -2,7 +2,7 @@
  ***************************** Declaration ********************************
  * @file           : zh_code_table.h
  * @author         : FriedParrot (https://github.com/FriedParrot)
- * @version        : v1.0
+ * @version        : v1.0 
  * @date           : 2024-08-23  (last modified)
  * @brief          : Chinese pinyin code table definition header file
  * @license        : MIT license (https://opensource.org/license/mit)

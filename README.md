@@ -8,7 +8,7 @@
 
 ### 如何移植到你的嵌入式平台
 
-- 此输入法全部需要的文件都在文件夹 zh_pinyin_decoder 下, 只需包含 zh_pinyin_decoder 即可, 目前测试平台为 windows, 只需稍加修改文件读取函数即可
+- 此输入法全部需要的文件都在文件夹 zh_pinyin_decoder 下, 只需包含 zh_pinyin_decoder.h 即可, 目前测试平台为 windows, 只需稍加修改文件读取函数即可
 
 > TODO : 之后会增加 stm32 平台的移植示例
 

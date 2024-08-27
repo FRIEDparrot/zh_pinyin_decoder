@@ -156,7 +156,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="zh_pinyin_decoder\bin\zh_pinyin.bin" />
-    <None Include="zh_pinyin_decoder\bin\zh_word_dic.json" />
+    <None Include="zh_pinyin_decoder\bin\zh_word_dict.json" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,10 +1,14 @@
 ﻿  zh_pinyin_decoder.c
-  USE_ZH_HASH_BOOST is recommended for better performance when matching word is required
+E:\workpack\CPP\Test2\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(52,1): warning C4267: 'initializing': conversion from 'size_t' to 'uint8_t', possible loss of data
+E:\workpack\CPP\Test2\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(66,25): warning C4244: 'return': conversion from '__int64' to 'uint8_t', possible loss of data
+E:\workpack\CPP\Test2\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(248,1): warning C4090: 'initializing': different 'const' qualifiers
+E:\workpack\CPP\Test2\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(252,1): warning C4267: 'initializing': conversion from 'size_t' to 'uint8_t', possible loss of data
+E:\workpack\CPP\Test2\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(271,1): warning C4267: 'initializing': conversion from 'size_t' to 'uint8_t', possible loss of data
+E:\workpack\CPP\Test2\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(324,23): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+E:\workpack\CPP\Test2\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(372,27): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
   GB2312search.cpp
 E:\workpack\CPP\Test2\GB2312search\GB2312search\codeconv\codeconv.h(6,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
 E:\workpack\CPP\Test2\GB2312search\GB2312search\GB2312search.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
-  USE_ZH_HASH_BOOST is recommended for better performance when matching word is required
-E:\workpack\CPP\Test2\GB2312search\GB2312search\GB2312search.cpp(48,26): warning C4244: 'initializing': conversion from 'clock_t' to 'float', possible loss of data
-E:\workpack\CPP\Test2\GB2312search\GB2312search\GB2312search.cpp(50,25): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
-E:\workpack\CPP\Test2\GB2312search\GB2312search\GB2312search.cpp(57,29): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
+E:\workpack\CPP\Test2\GB2312search\GB2312search\GB2312search.cpp(52,26): warning C4244: 'initializing': conversion from 'clock_t' to 'float', possible loss of data
+E:\workpack\CPP\Test2\GB2312search\GB2312search\GB2312search.cpp(54,25): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
   GB2312search.vcxproj -> E:\workpack\CPP\Test2\GB2312search\x64\Debug\GB2312search.exe

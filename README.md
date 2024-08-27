@@ -4,6 +4,12 @@
 
 目前支持拼音准确搜索和模糊匹配等功能， 之后会增加词库搜索支持
 
+### 如何运行你的第一个 demo
+
+对于 visual studio, 直接打开 GB2312search.vcxproj 并运行, 主程序为 GB2312search.cpp
+
+
+
 ### 如何移植到你的嵌入式平台
 
 - 此输入法全部需要的文件都在文件夹 zh_pinyin_decoder 下, 只需包含 zh_pinyin_decoder.h 即可, 目前测试平台为 windows, 只需稍加修改文件读取函数即可

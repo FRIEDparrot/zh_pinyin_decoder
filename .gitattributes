@@ -1,0 +1,8 @@
+# set the default behavior
+* text=auto
+
+*.c text
+*.h text
+
+zh_pinyin_decoder\bin\zh_pinyin.bin binary
+zh_pinyin_decoder\bin\zh_word_dict.json binary

@@ -1,4 +1,5 @@
 # set the default behavior
+* text=auto
 
 *.c text diff=cpp
 *.h text diff=cpp
@@ -8,4 +9,4 @@
 *.bin binary
 *.lib binary 
 *.exe binary
-*app binary
+*.app binary

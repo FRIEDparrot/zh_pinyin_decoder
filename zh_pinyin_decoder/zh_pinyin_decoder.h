@@ -34,7 +34,7 @@
     #pragma message("USE_ZH_HASH_BOOST is recommended for better performance when matching word is required")
 #endif
 
-#define ZH_CODE_TABLE_FILE_NAME      "zh_pinyin_decoder/bin/zh_pinyin_bkp.bin"      // code table file name
+#define ZH_CODE_TABLE_FILE_NAME      "zh_pinyin_decoder/bin/zh_pinyin.bin"      // code table file name
 #define ZH_WORD_DICTIONARY_FILE_NAME "zh_pinyin_decoder/bin/zh_word_dict.json"  // dictionary json file name 
 
 #define zh_buffer_malloc  malloc

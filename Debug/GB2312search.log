@@ -6,11 +6,4 @@ E:\workpack\CPP\Test2\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_deco
 E:\workpack\CPP\Test2\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(339,1): warning C4267: 'initializing': conversion from 'size_t' to 'uint8_t', possible loss of data
 E:\workpack\CPP\Test2\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(598,24): warning C4022: 'free': pointer mismatch for actual parameter 1
 E:\workpack\CPP\Test2\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(621,24): warning C4022: 'free': pointer mismatch for actual parameter 1
-  GB2312search.cpp
-E:\workpack\CPP\Test2\GB2312search\GB2312search\codeconv\codeconv.h(6,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
-E:\workpack\CPP\Test2\GB2312search\GB2312search\GB2312search.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
-E:\workpack\CPP\Test2\GB2312search\GB2312search\GB2312search.cpp(47,27): warning C4018: '<': signed/unsigned mismatch
-E:\workpack\CPP\Test2\GB2312search\GB2312search\GB2312search.cpp(161,27): warning C4018: '<': signed/unsigned mismatch
-E:\workpack\CPP\Test2\GB2312search\GB2312search\GB2312search.cpp(172,35): warning C4018: '<': signed/unsigned mismatch
-     Creating library E:\workpack\CPP\Test2\GB2312search\Debug\GB2312search.lib and object E:\workpack\CPP\Test2\GB2312search\Debug\GB2312search.exp
   GB2312search.vcxproj -> E:\workpack\CPP\Test2\GB2312search\Debug\GB2312search.exe

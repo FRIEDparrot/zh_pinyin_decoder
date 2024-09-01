@@ -1,6 +1,10 @@
-﻿  GB2312search.cpp
-E:\workpack\CPP\Test2\GB2312search\GB2312search\codeconv\codeconv.h(6,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
-E:\workpack\CPP\Test2\GB2312search\GB2312search\GB2312search.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
-E:\workpack\CPP\Test2\GB2312search\GB2312search\GB2312search.cpp(52,26): warning C4244: 'initializing': conversion from 'clock_t' to 'float', possible loss of data
-E:\workpack\CPP\Test2\GB2312search\GB2312search\GB2312search.cpp(54,25): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
+﻿  zh_pinyin_decoder.c
+E:\workpack\CPP\Test2\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(81,1): warning C4267: 'initializing': conversion from 'size_t' to 'uint8_t', possible loss of data
+E:\workpack\CPP\Test2\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(98,25): warning C4244: 'return': conversion from '__int64' to 'uint8_t', possible loss of data
+E:\workpack\CPP\Test2\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(138,86): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+E:\workpack\CPP\Test2\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(316,1): warning C4090: 'initializing': different 'const' qualifiers
+E:\workpack\CPP\Test2\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(320,1): warning C4267: 'initializing': conversion from 'size_t' to 'uint8_t', possible loss of data
+E:\workpack\CPP\Test2\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(339,1): warning C4267: 'initializing': conversion from 'size_t' to 'uint8_t', possible loss of data
+E:\workpack\CPP\Test2\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(725,23): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+E:\workpack\CPP\Test2\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(771,27): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
   GB2312search.vcxproj -> E:\workpack\CPP\Test2\GB2312search\x64\Debug\GB2312search.exe

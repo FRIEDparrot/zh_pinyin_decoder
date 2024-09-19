@@ -459,7 +459,7 @@ static cJSON* cjson_parse_piece(char* buf, uint32_t* bytes_left) {
         pstart++;
         /* can't find location for parse */
         while (isspace(*pstart)) pstart++;
-        if (pstart - buf == ZH_WORD_DICT_BUFFER_SZ) return NULL;
+        if (pstart - (uint8_t*)buf == ZH_WORD_DICT_BUFFER_SZ) return NULL;
         if (*pstart == ',') {
             *pstart = '{';
         }
@@ -474,13 +474,13 @@ static cJSON* cjson_parse_piece(char* buf, uint32_t* bytes_left) {
             pend++;
             while (isspace(*pend)) pend++;
             /* if read to the end but can't find signal */
-            if (pend - buf == ZH_WORD_DICT_BUFFER_SZ) {
+            if (pend - (uint8_t*)buf == ZH_WORD_DICT_BUFFER_SZ) {
                 pend = pend_tmp;      /* relocate pointer */
                 continue;
             }
             memcpy(conn, pend, 2);
             *pend = '}';
-            if (ZH_WORD_DICT_BUFFER_SZ - (pend - buf) != 1) {
+            if (ZH_WORD_DICT_BUFFER_SZ - (pend - (uint8_t*)buf) != 1) {
                 *(pend + 1) = '\0';
             }
             break;
@@ -489,7 +489,7 @@ static cJSON* cjson_parse_piece(char* buf, uint32_t* bytes_left) {
     if (pend == pstart) return NULL;   /* can't get reasonable parse location */
     cJSON* item = cJSON_Parse(pstart);
     memcpy(pend, conn, 2);
-    if (bytes_left) *bytes_left = ZH_WORD_DICT_BUFFER_SZ - (pend - buf);  /* size left in current buffer */
+    if (bytes_left) *bytes_left = ZH_WORD_DICT_BUFFER_SZ - (pend - (uint8_t*)buf);  /* size left in current buffer */
     return item;
 }
 

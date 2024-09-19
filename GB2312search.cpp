@@ -2,8 +2,8 @@
  ***************************** Declaration ********************************
  * @file           : GB2312search.cpp
  * @author         : FriedParrot (https://github.com/FriedParrot)
- * @version        : v1.5
- * @date           : 2024-09-01  (last modified)
+ * @version        : v1.6
+ * @date           : 2024-09-20  (last modified)
  * @brief          : decoder source file for chinese pinyin inputting method
  * @license        : MIT license (https://opensource.org/license/mit)
  *****************************************************************************
@@ -11,10 +11,11 @@
  * This file contains the 'main' function. Program execution begins and ends there.
  * this is also the c++ example program for the whole inputting method.
  * 
- * test1 : font base file integrity test (字库完整性测试)
- * test2 : character code vague match test (单个汉字模糊匹配测试)
- * test3 : pinyin split method test  (拼音分词测试) 
- * test4 : comprehensive input method test with lexcion (带词库检索的完整输入法测试)
+ * test1 : font base file integrity test
+ * test2 : character code vague match test
+ * test3 : pinyin split method test 
+ * test4 : comprehensive input method test with lexcion 
+ * all the test cases can be found in detail at https://github.com/FRIEDparrot/zh_pinyin_decoder
  * 
  * @note
  * this inputting method is a lightweight, portable Chinese pinyin inputting method.
@@ -24,11 +25,11 @@
  */
 
 #include <iostream>
-#include <string>
-#include <cstdio>
+#include <string.h>
 #include <time.h>
 #include "CJSON/cJSON.h"
 #include "codeconv/codeconv.h"
+#include "stdio.h"
 #include "zh_pinyin_decoder/zh_pinyin_decoder.h"
 #include "zh_pinyin_decoder/zh_code_table.h"
 #include "zh_pinyin_decoder/zh_hash_boost.h"

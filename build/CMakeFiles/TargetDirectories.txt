@@ -1,0 +1,3 @@
+E:/workpack/CPP/GB2312search/GB2312search/build/CMakeFiles/GB2312_pinyin_decoder.dir
+E:/workpack/CPP/GB2312search/GB2312search/build/CMakeFiles/edit_cache.dir
+E:/workpack/CPP/GB2312search/GB2312search/build/CMakeFiles/rebuild_cache.dir

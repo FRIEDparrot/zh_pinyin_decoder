@@ -1,0 +1,3 @@
+E:\cmake\bin\cmake.exe -E rm -f CMakeFiles\GB2312_pinyin_decoder.dir/objects.a
+E:\mingw64\bin\ar.exe qc CMakeFiles\GB2312_pinyin_decoder.dir/objects.a @CMakeFiles\GB2312_pinyin_decoder.dir\objects1.rsp
+E:\mingw64\bin\c++.exe  -std=c++11 -Wl,--whole-archive CMakeFiles\GB2312_pinyin_decoder.dir/objects.a -Wl,--no-whole-archive -o GB2312_pinyin_decoder.exe -Wl,--out-implib,libGB2312_pinyin_decoder.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\GB2312_pinyin_decoder.dir\linkLibs.rsp

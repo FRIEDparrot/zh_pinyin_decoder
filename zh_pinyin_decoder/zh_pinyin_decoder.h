@@ -42,16 +42,17 @@
 
 /********************************** LOG Setttings *********************************/
 
-#define ZH_USE_LOG        1
+#define ZH_USE_LOG        1 
 #if (ZH_USE_LOG == 0)
 #define ZH_LOG_INFO(...)       do{}while(0)
 #define ZH_LOG_ERROR(...)      do{}while(0)
 #define ZH_LOG_WARNING(...)    do{}while(0)
 #else
-#define ZH_LOG_INFO(fmt,...)       printf("[Info]    " fmt " at %s : %s, line %d\n",__VA_ARGS__,__FILE__ ,__func__,__LINE__)
-#define ZH_LOG_WARNING(fmt,...)    printf("[Warning] " fmt " at %s : %s, line %d\n",__VA_ARGS__,__FILE__ ,__func__,__LINE__)
-#define ZH_LOG_ERROR(fmt,...)      printf("[Error]   " fmt " at %s : %s, line %d\n",__VA_ARGS__,__FILE__ ,__func__,__LINE__)
+#define ZH_LOG_INFO(msg)       printf("[Info]    " msg " at %s : %s, line %d\n",  __FILE__ ,__func__,__LINE__)
+#define ZH_LOG_WARNING(msg)    printf("[Warning] " msg " at %s : %s, line %d\n",  __FILE__ ,__func__,__LINE__)
+#define ZH_LOG_ERROR(msg)      printf("[Error]   " msg " at %s : %s, line %d\n",  __FILE__ ,__func__,__LINE__)
 #endif
+
 
 /**************************** CODE MATCH Settings *********************************/
 

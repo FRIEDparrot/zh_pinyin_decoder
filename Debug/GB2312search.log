@@ -1,9 +1,125 @@
-﻿  zh_pinyin_decoder.c
-E:\workpack\CPP\Test2\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(81,1): warning C4267: 'initializing': conversion from 'size_t' to 'uint8_t', possible loss of data
-E:\workpack\CPP\Test2\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(138,86): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
-E:\workpack\CPP\Test2\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(316,1): warning C4090: 'initializing': different 'const' qualifiers
-E:\workpack\CPP\Test2\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(320,1): warning C4267: 'initializing': conversion from 'size_t' to 'uint8_t', possible loss of data
-E:\workpack\CPP\Test2\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(339,1): warning C4267: 'initializing': conversion from 'size_t' to 'uint8_t', possible loss of data
-E:\workpack\CPP\Test2\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(598,24): warning C4022: 'free': pointer mismatch for actual parameter 1
-E:\workpack\CPP\Test2\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(621,24): warning C4022: 'free': pointer mismatch for actual parameter 1
-  GB2312search.vcxproj -> E:\workpack\CPP\Test2\GB2312search\Debug\GB2312search.exe
+﻿  cJSON.c
+  zh_code_table.c
+  zh_hash_boost.c
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(122,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[1]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(123,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[2]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(124,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[1]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(125,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[5]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(126,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[3]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(127,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[6]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(128,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[1]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(129,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[1]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(130,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[18]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(131,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[5]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(132,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[5]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(133,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[3]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(134,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[1]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(135,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[2]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(136,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[5]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(137,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[5]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(138,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[3]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(139,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[7]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(140,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[2]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(141,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[1]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(142,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[1]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(143,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[1]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(144,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[3]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(145,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[3]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(146,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[2]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(147,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[1]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(148,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[8]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(149,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[5]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(150,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[4]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(151,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[2]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(152,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[1]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(153,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[8]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(154,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[5]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(155,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[4]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(156,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[2]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(157,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[3]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(158,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[10]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(159,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[8]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(160,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[5]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(161,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[3]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(162,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[2]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(163,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[5]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(164,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[1]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(165,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[5]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(166,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[3]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(167,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[9]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(168,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[3]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(169,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[5]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(170,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[4]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(171,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[7]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(172,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[2]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(173,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[1]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(174,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[4]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(175,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[1]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(176,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[5]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(177,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[4]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(178,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[8]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(179,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[1]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(180,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[2]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(181,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[1]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(182,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[5]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(183,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[3]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(184,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[6]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(185,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[2]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(186,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[1]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(187,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[4]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(188,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[10]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(189,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[5]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(190,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[3]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(191,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[3]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(192,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[1]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(193,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[2]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(194,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[18]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(195,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[5]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(196,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[5]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(197,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[3]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(198,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[1]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(199,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[2]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(200,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[5]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(201,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[5]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(202,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[3]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(203,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[5]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(204,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[2]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(205,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[4]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(206,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[3]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(207,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[1]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(208,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[1]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(209,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[4]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(210,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[10]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(211,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[4]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(212,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[4]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(213,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[1]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(214,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[3]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(215,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[3]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(216,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[5]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(217,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[5]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(218,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[4]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(219,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[1]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(220,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[2]'
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_hash_boost.c(221,52): warning C4047: 'initializing': 'uint8_t *' differs in levels of indirection from 'const uint8_t (*)[20]'
+  zh_pinyin_decoder.c
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(81,1): warning C4267: 'initializing': conversion from 'size_t' to 'uint8_t', possible loss of data
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(138,86): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(316,1): warning C4090: 'initializing': different 'const' qualifiers
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(320,1): warning C4267: 'initializing': conversion from 'size_t' to 'uint8_t', possible loss of data
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(339,1): warning C4267: 'initializing': conversion from 'size_t' to 'uint8_t', possible loss of data
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(598,24): warning C4022: 'free': pointer mismatch for actual parameter 1
+E:\workpack\CPP\GB2312search\GB2312search\zh_pinyin_decoder\zh_pinyin_decoder.c(621,24): warning C4022: 'free': pointer mismatch for actual parameter 1
+  Generating Code...
+  codeconv.cpp
+E:\workpack\CPP\GB2312search\GB2312search\codeconv\codeconv.h(6,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+E:\workpack\CPP\GB2312search\GB2312search\codeconv\codeconv.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+  GB2312search.cpp
+E:\workpack\CPP\GB2312search\GB2312search\GB2312search.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+E:\workpack\CPP\GB2312search\GB2312search\codeconv\codeconv.h(6,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+E:\workpack\CPP\GB2312search\GB2312search\GB2312search.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+E:\workpack\CPP\GB2312search\GB2312search\GB2312search.cpp(47,27): warning C4018: '<': signed/unsigned mismatch
+E:\workpack\CPP\GB2312search\GB2312search\GB2312search.cpp(161,27): warning C4018: '<': signed/unsigned mismatch
+E:\workpack\CPP\GB2312search\GB2312search\GB2312search.cpp(172,35): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+     Creating library E:\workpack\CPP\GB2312search\Debug\GB2312search.lib and object E:\workpack\CPP\GB2312search\Debug\GB2312search.exp
+  GB2312search.vcxproj -> E:\workpack\CPP\GB2312search\Debug\GB2312search.exe

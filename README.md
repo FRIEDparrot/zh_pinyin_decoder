@@ -30,8 +30,7 @@ mingw32-make
 ```
 
 即可运行可执行文件 :
-
-![2024-09-20-00-31-32-image.png](E:\workpack\CPP\GB2312search\GB2312search\attachments\2024-09-20-00-31-32-image.png)
+![](attachments/2024-09-20-00-31-32-image.png)
 
 ## 快速运行第一个 demo
 

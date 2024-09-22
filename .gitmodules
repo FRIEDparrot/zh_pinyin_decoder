@@ -1,0 +1,3 @@
+[submodule "code_table_resources"]
+	path = code_table_resources
+	url = https://github.com/FRIEDparrot/GBK-code-table
